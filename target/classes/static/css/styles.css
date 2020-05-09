@@ -1,0 +1,99 @@
+.login-border {
+    border-radius: 38px;
+    border-color: #4D8AB0 !important;
+}
+.next-gen-text{
+    color: #4D8AB0;
+    font-size: 1.7em;
+}
+.login-button{
+    border-radius: 0;
+    background: #4D8AB0;
+    border: none;
+}
+.outsourcing-project{
+    font-size: 0.9em;
+    letter-spacing: 0.095em;
+}
+.new-project{
+    text-decoration: underline;
+}
+.form-border{
+    border: 1px solid #4D8AB0;
+}
+.attachment-file{
+    text-decoration: underline;
+}
+/*Summary page*/
+.project-view{
+    background: #335B74;
+}
+.project-detail-bg{
+    background: #C3D8E5;
+    border: 1px solid #117EA7;
+}
+.nav-tabs .nav-link.active{
+    border-color: transparent !important;
+}
+.nav-item{
+    border: 1px solid #007bff;
+}
+.nav-item .active{
+    background-color: #1CADE4 !important;
+    color: #fff !important;
+}
+.tab-content{
+    border-color: #007bff !important;
+}
+
+/*samples page*/
+.upload-data{
+    background: #1CADE4;
+}
+.data-details{
+    text-decoration: underline;
+}
+.table-responsive thead{
+    background: #1CADE4;
+}
+.table-responsive tbody .even{
+    background: #CCE3F5;
+}
+.table-responsive tbody .odd{
+    background: #E7F1FA;
+}
+.vendor-outsource-buttons a{
+    background: #4D8AB0;
+}
+/*project-list*/
+input[type=checkbox]{
+    width: 22px;
+    height: 22px;
+    margin-right: 3.5em;
+    float: left !important;
+}
+#project-list thead{
+    background: #C6CDD1;
+}
+
+@media screen and (min-width:1024px){
+    /* .add-to-cart{
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .next-gen-text{
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+    .logo-width{
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+    }
+    .logo-right{
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+    } */
+    .project-detail-left-border {
+        border-left: 1px solid black;
+    }
+}
